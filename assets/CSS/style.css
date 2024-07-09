@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(224, 159, 206);
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    color: rgb(6, 47, 100);
+    font-size: 4rem;
+    color: rgb(50, 45, 45);
+    margin-top: 6em;
+}
+#Lista{
+    width: 40%;
+}
+
+form{
+    padding: 1em;
+    background-color: aliceblue;
+   border-radius: 10px;
+   margin-left: 30em;
+   margin-right: 30em;
+  margin-top: 5em;
+
+}
+input{
+    margin-left: 30%;
+    padding-block: 1em;
+    padding-inline: 15em;
+    border-radius: 5px;
+   
+}
+#btnInsert{
+    padding: 1em;
+    border-radius: 5px;
+    padding-inline: 3em;
+    background-color: aqua;
+   
+}
+p{
+    background-color: azure;
+    margin: 1em 30em ;
+    padding-block: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+p:hover{
+    background-color: bisque;
+}
+.completed{
+    text-decoration: line-through;
+    color: blue;
+     cursor: pointer;
+     position: relative;
+}
+ion-icon{
+    margin: auto;
+    padding: 5px; 
+    
+
+}
